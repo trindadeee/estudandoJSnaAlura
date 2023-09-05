@@ -21,3 +21,7 @@ console.log(numero + numeroString);
 //const numeroString = "444";
 
 
+const telefone = 123456;
+
+//também é possível usar o toString() como função para converter numero em string, como no java por exemplo.
+console.log(telefone.toString());
