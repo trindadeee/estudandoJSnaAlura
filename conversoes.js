@@ -25,3 +25,14 @@ const telefone = 123456;
 
 //também é possível usar o toString() como função para converter numero em string, como no java por exemplo.
 console.log(telefone.toString());
+
+//conversao de booleano para string verdadeira.
+let rouboABanco = true;
+console.log(String(rouboABanco));
+
+//com o simbolo de soma(+) na frente da String faz a conversao de string para number
+let valor = "10";
+console.log(+valor, +valor);
+
+//conversao de booleana para number, e retorna 1 para true e 0 para false
+console.log(Number(rouboABanco));
