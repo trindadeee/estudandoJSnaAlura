@@ -1,0 +1,63 @@
+--> Estas sao anotacoes do curso de js aula 1:
+
+--------------
+É possivel utilizar ponto flutuante sem por o 0 antes no caso ficaria .5 o js reconhece como sendo 0.5, pois ele pode ser declarado assim
+
+Strings nao armazenam booleanos ou numbers
+
+o js reconhece strings como tendo ""(aspas duplas) ou tambem ''(aspas simples), ou seja pode usar das 2 formas
+
+na concatenaçao de strings pode ser usado o +(operacao de soma) como tambem a ,(virgula)
+
+o js diferencia letras maiusculas de minusculas
+
+no js pra fazer comparacao usa o igual(=) 3 vezes (===)
+
+--> Estas sao anotacoes do curso de js aula 2:
+
+---------------
+  Se eu tirar das variaveis o var ou const o programa funciona e calcula a operacao porem o js nao vai saber que tipo é aquela variavel se e 
+uma constante ou se é uma variavel temporaria
+
+o true e o false devem ser escritas com letras minusculas.
+
+  o truthy e falsy nao sao booleanos mas podem se comportar como se fossem. em algumas linguagens o 0 faz papel de false e o 1 de true, no js por 
+exemplo e em algumas linguagens de banco
+
+Com o toString tambem é possível converter de numero em texto
+
+--> Estas sao anotacoes do curso de js aula 3:
+
+----------------
+js é uma linguagem de tipagem dinâmica, pois não é necessario declarar o tipo   
+
+ES6/ES2015 é uma versao da linguagem que ficou mais marcante e com isso anualmente ela vem tendo melhorias 
+
+linguagens interpretadas sao linguagens que é um programa que le as linhas de codigo
+
+o node é voltado pro js no back end ou seja no servidor
+
+console é uma ferramente que tem no node ou no navegador
+
+o log é um registro que pode armazenar o que o dev quizer registrar
+
+--> Estas sao anotacoes do curso de js aula 4:
+
+----------------
+== significa comparacao implicita ou também comparacao de valor
+
+  como foi dito ele compara o valor entao se a string "5" é o mesmo valor do number (5) entao da true, mas se em algum dos 2 estiver um valor 
+diferente entao da false por exemplo uma string "6"
+
+=== significa comparacao explicita, no caso ele pega o valor das variaveis e compara o tipo e valor 
+
+atualmente é boa prática usar os 3 iguais(===) e quando for realizada conversoes faze-la de modo explicita
+
+operador ternario, é chamado assim por ter tres operadores numa linha de codigo
+
+  nao é recomendado coloca varios operadores ternarios dentro do outro pois fica dificil a leitura e compreensao, nesse caso usar o if. é uma boa 
+prática
+
+  Uma função é criada para ser executado quando eu quizer podendo ser utilizada uma ou mais vezes no decorrer do codigo. Primeiro passa o declarar
+a função em seguida chamar a função para ser executada. Há 3 formas de declarar função. É possivel chamar umas funcao dentro de outra, basta ao 
+chamar a funcao coloca dentro dos parentesis a outra funcao.

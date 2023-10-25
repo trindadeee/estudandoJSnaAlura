@@ -9,7 +9,7 @@ area = altura * comprimento;
 console.log(area);
 var area;// a area pode ser declarado depois da execucao do programa no var
 
-//-----------------------------------
+//------------------------------------
 
 let forma = 'retangulo';
 let altura1 = 5;
